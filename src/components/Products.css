@@ -1,0 +1,26 @@
+.products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}
+
+.advertisement p{
+    text-align: center;
+    font-family: Urbanist, sans-serif;
+    font-size: larger;
+    padding: 10px 25%;
+    color: green;
+}
+.advertisement{
+    text-align: center;
+}
+
+.quantity{
+    color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 0 4px;
+    background-color: lightblue;
+    
+}

@@ -1,0 +1,100 @@
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    flex-direction: column;
+    
+}
+
+.contact--form form{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 90%;
+    margin: px;
+    font-family: Urbanist,sans-serif;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+textarea{
+    min-width: 250px;
+    min-height: 200px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    border-color: green;
+}
+
+input{
+    min-height: 30px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.contact i{
+    padding: 1rem;
+    color: green;
+   
+}
+
+.smaller-icons{
+    display: none;
+}
+.larger-icons{
+    padding-top: 3rem;
+}
+
+.larger-icons i{
+    padding: 3rem;
+}
+.send-btn{
+    background-color: green;
+    cursor: pointer;
+}
+
+.contact-column{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.address{
+    padding: 4em;
+    line-height: 3em;
+    font-size: 1.5em;
+}
+.address i{
+    text-align: center;
+}
+
+@media screen and (max-width:700px){
+    .contact-column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .address{
+        padding: 4em;
+        line-height: 2em;
+        font-size: 1.3em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:425px){
+    .larger-icons{
+        display: none;
+    }
+    .smaller-icons{
+        padding-top: 3em;
+        display: flex;
+    }
+}

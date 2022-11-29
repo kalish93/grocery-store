@@ -1,0 +1,41 @@
+
+.fruit-basket, .vegetable-basket{
+    width: 50%;
+    height: 50%;
+}
+
+.fruits, .vegetables{
+    display: flex;
+}
+.fruits{
+    flex-direction: row-reverse;
+}
+.fruits-descreption,.vegetables-descreption{
+    padding: 5%;
+}
+
+P{
+    font-family: Urbanist,sans-serif;
+    color: green;
+    }
+
+@media (max-width:600px) {
+    .fruits, .vegetables{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .fruit-basket, .vegetable-basket{
+        width: 60%;
+        height: 60%;
+        padding-left: 20%;
+    }
+
+}
+
+
+
+    
+  
+
+

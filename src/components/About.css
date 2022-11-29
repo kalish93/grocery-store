@@ -1,0 +1,19 @@
+
+h1{
+    line-height: 5rem;
+    font-weight: 400;
+}
+.about-us{
+    color: green;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 40px;
+    line-height: 1.5rem;
+}
+
+@media screen and(max-width:600px){
+    .about{
+        margin: 10px;
+        padding: 10px;
+    }
+}
